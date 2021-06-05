@@ -22,6 +22,8 @@ class Snowflake{
         translate(pos.x, pos.y);
         rotate(angle);
         //this.color = color(random(0,255), random(0, 255), random(0, 255));
+        fill('white');
+        stroke('white');
         ellipseMode(RADIUS);
         ellipse(0,0,this.r, this.r);
         pop();

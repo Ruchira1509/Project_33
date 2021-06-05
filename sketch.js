@@ -41,19 +41,19 @@ function draw() {
   }
 
   if(frameCount % 50 === 0){
-    snow.push(new Snowflake(random(1, 800), 8, 8,))
+    snow.push(new Snowflake(random(1, 800), 8, 8))
   }
 
   if(frameCount % 60 === 0){
-    snow.push(new Snowflake(random(1, 800), 8, 8,))
+    snow.push(new Snowflake(random(1, 800), 8, 8))
   }
 
   if(frameCount % 70 === 0){
-    snow.push(new Snowflake(random(1, 800), 8, 8,))
+    snow.push(new Snowflake(random(1, 800), 8, 8))
   }
 
   if(frameCount % 80 === 0){
-    snow.push(new Snowflake(random(1, 800), 8, 8,))
+    snow.push(new Snowflake(random(1, 800), 8, 8))
   }
     
      
