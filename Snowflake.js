@@ -26,7 +26,7 @@ class Snowflake{
         stroke('white');
         //ellipseMode(RADIUS);
         //ellipse(0,0,this.r, this.r);
-        //imageMode(CENTER)
+        imageMode(CENTER)
         image(this.image, 0, 0, 15, 15);
         pop();
     }
