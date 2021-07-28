@@ -14,13 +14,12 @@ var scene, sceneImg;
 function preload(){
   sceneImg = loadImage("snowy place.jpeg");
   
-  
   }
 
 
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(800, 700);
   engine = Engine.create();
   world = engine.world;
   ground = new Ground(width/2,height,width,20);
